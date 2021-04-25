@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Умный Маркет</string>
+
+    <string name="search_hint">Введите название</string>
+
+    <string name="main_title">Выберите товар в\nкаталоге</string>
+    <string name="recommended">Рекомендуем</string>
+    <string name="popular">Популярные</string>
+    <string name="upcoming">Понравившиеся</string>
+
+    <string name="banner_question">Вы тоже можете продавать\nсвои товары.\nЗарегистрируйтесь как\nсамозанятый и начните зарабатывать\nс завтрашнего дня</string>
+    <string name="how">Подробнее</string>
+    <string name="description">Вы можете зарегистрироваться как\nсамозанятый и зарабатывать\nс завтрашнего дня</string>
+    <string name="form">Регистрация</string>
+
+    <string name="tutorial_3_title">Готовый список популярных сервисов</string>
+    <string name="tutorial_3_subtitle">Поможет сэкономить время\n и ничего не забыть</string>
+
+    <string name="tutorial_2_title">Регулярные платежи</string>
+    <string name="tutorial_2_subtitle">Получайте деньги на следующий день после продажи товара. Без лимитов и комиссий.</string>
+
+    <string name="tutorial_1_title">Доходы всегда под контролем</string>
+    <string name="tutorial_1_subtitle">С платформой Wallet One ваши доходы под контролем в любое время</string>
+
+    <string name="services">Услуги</string>
+
+    <string name="home">Каталог</string>
+    <string name="tutorial_start">Начать</string>
+
+    <string name="more">Ещё…</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="search">Поиск</string>
+    <string name="later">44\n Буду смотреть</string>
+
+    <string name="tv_show">Телесериалы</string>
+    <string name="close">закрыть</string>
+
+    <string name="cashback_carrot_result">Понимаем :) Возвращайте деньги на счёт телефона, покупая в интернете!
+        Подробнее о бонусах за покупки
+    </string>
+
+    <string name="good_title">Название</string>
+    <string name="good_description">Описание</string>
+    <string name="currency">Валюта</string>
+
+    <string name="rub_currency">Руб (₽)</string>
+
+    <string-array name="tab_titles">
+        <item>Регистрация</item>
+        <item>Мои данные</item>
+        <item>Мои товары</item>
+        <item>Транзакции</item>
+        <item>Аналитика</item>
+        <item>Статистика</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placeholder">Кабинет\nсамозанятого</string>
+
+    <string name="currency_symbol_rub">₽</string>
+    <string name="currency_symbol_eur">€</string>
+    <string name="currency_symbol_usd">$</string>
+    <string name="currency_symbol_gbp">£</string>
+</resources>

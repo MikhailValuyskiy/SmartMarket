@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/goods_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/item_card" />
+        </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/filter_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorAccent"
+        fab:menu_colorNormal="@color/colorAccent"
+        fab:menu_colorPressed="@color/colorAccent"
+        fab:menu_icon="@drawable/ic_edit"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/ic_baseline_add_24"
+        fab:fab_colorNormal="#FFFFFF"
+        fab:fab_colorPressed="#FFFFFF"
+        fab:fab_colorRipple="@color/colorAccent"
+        fab:fab_label="Добавить"
+        fab:fab_size="normal" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/by_percent_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/ic_filter"
+        fab:fab_colorNormal="#FFFFFF"
+        fab:fab_colorPressed="#FFFFFF"
+        fab:fab_colorRipple="@color/colorAccent"
+        fab:fab_label="Сортировать"
+        fab:fab_size="normal" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

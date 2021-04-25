@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context="ru.androidschool.intensiv.ui.movie_details.GoodsDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/movie_card_height">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_super_small"
+            android:layout_marginLeft="@dimen/material_margin_super_small"
+            android:layout_marginEnd="@dimen/material_margin_super_small"
+            android:layout_marginBottom="@dimen/material_margin_normal"
+            android:orientation="horizontal"
+            tools:background="@color/blueDark"
+            tools:ignore="RtlHardcoded">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/image_preview"
+                    android:layout_width="@dimen/movie_card_width"
+                    android:layout_height="@dimen/movie_card_height"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+                    tools:background="@color/black"
+                    tools:src="@drawable/ic_avatar" />
+
+
+                <CheckBox
+                    android:id="@+id/like"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignRight="@+id/image_preview"
+                    android:layout_alignBottom="@+id/image_preview"
+                    android:button="@drawable/like_checkbox" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/material_margin_super_small"
+                        android:text="Уникальная коробка из крафтовой бумаги для ваашего праздника"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        tools:textColor="@color/black" />
+
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:id="@+id/movie_rating"
+                        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:progressBackgroundTint="@color/colorPrimary"
+                        android:stepSize="0.5"
+                        android:rating="5" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/material_margin_super_small"
+                        android:text="Цена 100 руб."
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        tools:textColor="@color/black" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buy_button"
+                    android:layout_width="160dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="#008000"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Купить"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

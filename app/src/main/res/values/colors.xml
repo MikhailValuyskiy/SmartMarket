@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#5CA0D3</color>-->
+    <color name="colorPrimary">#FF4622</color>
+    <color name="colorPrimaryDark">#FF4622</color>
+    <color name="colorAccent">#FF4622</color>
+
+    <color name="colorControlNormal">#f9a825</color>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#4fc3f7</color>
+
+    <color name="red">#d00000</color>
+    <color name="dark">#032b43</color>
+    <color name="green">#136f63</color>
+    <color name="dark_green">#079D4D</color>
+
+    <color name="redOrange">#e63946</color>
+    <color name="orange">#e76f51</color>
+    <color name="darkBlue">#155b87</color>
+    <color name="asphalt">#5c6d70</color>
+    <color name="darkAsphalt">#484a47</color>
+
+    <color name="stock_color">#00b4cd</color>
+    <color name="stock_color1">#a53cb6</color>
+    <color name="stock_color2">#a9db7a</color>
+    <color name="stock_color3">#ff7b49</color>
+    <color name="stock_color4">#176AAB</color>
+    <color name="stock_color5">#D58110</color>
+    <color name="sber_green">#079D4D</color>
+    <color name="sber_pref">#1b5e20</color>
+    <color name="mgts_color">#0083CB</color>
+    <color name="moex_color">#F90243</color>
+    <color name="enru_color">#FF0F64</color>
+    <color name="rosn_color">#FFD200</color>
+    <color name="tcs_color">#fcea0a</color>
+    <color name="qiwi_color">#ff8b00</color>
+    <color name="rtkm_color">#8B00FF</color>
+    <color name="gmkn_color">#0089CF</color>
+    <color name="lkoh_color">#D2233C</color>
+    <color name="mgnt_color">#E30016</color>
+    <color name="ogkb_color">#0078C5</color>
+    <color name="mmk_color">#2C499A</color>
+    <color name="bane_color">#C52D7D</color>
+    <color name="banep_color">#E43578</color>
+
+
+
+
+<!--    <color name="blueDark">#2C3848</color>-->
+
+<!--    <color name="blueDark">#FF4622</color>-->
+    <color name="blueDark">#FFFFFF</color>
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="transparent_grey">#CC000000</color>
+
+
+    <color name="colorItemSelected">#5CA0D3</color>
+    <color name="colorItemDisabled">#4a6e8a</color>
+    <color name="textColorLight">#FFFFFF</color>
+    <color name="textColorGrey">#999999</color>
+
+    <color name="favorite">#EC6E7D</color>
+    <color name="selectedControlIndicator">#D6182A</color>
+
+    <color name="mainFeedBackground">@color/colorPrimary</color>
+
+
+</resources>

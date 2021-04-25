@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchBar">
+        <attr name="hint" format="string" />
+        <attr name="cancel_visible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TypingIndicator">
+        <attr name="dotColor" format="color" />
+        <attr name="dotSize" format="dimension" />
+        <attr name="animationFrequency" format="integer" />
+        <attr name="dotMargin" format="dimension" />
+    </declare-styleable>
+</resources>
